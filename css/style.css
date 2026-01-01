@@ -1,0 +1,769 @@
+/* start global */
+* {
+  direction: rtl;
+  font-size: 16px !important;
+}
+/* global */
+body {
+  background: #f1f1f2 !important;
+  height: auto !important;
+}
+/* sliders */
+.container .container-header2 .col-6 {
+  font-weight: bold;
+}
+.container .container-header2 .row a {
+  text-decoration: none;
+  color: black;
+}
+.container .container-header2 .row a:hover {
+  color: #e07e1b;
+}
+.container .container-header .row a {
+  text-decoration: none;
+  color: white;
+}
+.container .container-header .row div {
+  color: white;
+}
+/* card */
+.card-container .row .col-6 img,
+.card-container .row .col-4 img {
+  width: 100%;
+  height: 100%;
+  margin-left: 50px;
+}
+.card-container .row .col-2 img:hover,
+.card-container .row .col-4 img:hover,
+.card-container .row .col-6 img:hover {
+  transform: scale(1.01);
+  box-shadow: -7px 8px 14px 2px rgb(174, 174, 174);
+}
+/* end */
+.header-con .navbar-nav .login_ul li,
+.header-con .navbar-nav .help_ul li:not(:last-child) {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.header-con .navbar-nav .login_ul li a button,
+.header-con .navbar-nav .help_ul li a button {
+  background: #fa9301;
+  border: none;
+  width: 100%;
+}
+.header-con .navbar-nav .login_ul li a button:hover,
+.header-con .navbar-nav .help_ul li a button:hover {
+  background: #e07e1b;
+}
+.header-con .navbar-nav .login_ul li i {
+  margin-left: 15px;
+}
+.container .col-2 .Category,
+.container .col-2 .left-ul {
+  list-style: none;
+  text-align: right;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-right: 10px !important;
+}
+.container .col-2 .Category {
+  height: 450px;
+}
+.container .col-2 .Category li:not(:first-child) {
+  padding-top: 14px !important;
+}
+.container .col-2 .Category li a,
+.container .col-2 .left-ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container .col-2 .Category li a:hover,
+.container .col-2 .left-ul li a:hover {
+  color: #ffa621;
+}
+
+.container .col-2 .left-ul {
+  height: 200px;
+  width: 280px !important;
+}
+.container .col-2 .left-ul li {
+  padding-top: 20px !important ;
+}
+.container .col-2 .left-ul li i {
+  color: #ff9900;
+  font-size: 25px !important;
+}
+.container .col-2 .left-ul li a {
+  margin: 5px !important;
+}
+
+.container .l_r_img img {
+  width: 280px !important;
+}
+
+/* flash sale part & slider sec2 */
+
+.container .container-header2 .col-12 {
+  font-size: 20px !important;
+}
+
+.container .carousel {
+  position: relative;
+}
+
+.container .carousel .card .shap {
+  height: 5px;
+  width: 100%;
+  background: gray;
+  border-radius: 5px;
+}
+
+.container #cardCarousel .card .shap span {
+  display: block;
+  height: 5px;
+  background: #e07e1b;
+}
+
+.container .carousel .carousel-control-prev,
+.container .carousel .carousel-control-next {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #979797;
+  position: absolute;
+  top: 30%;
+}
+/* toggel menu */
+/* toggel menue */
+.container .toggel_div1 {
+  text-align: start;
+  position: fixed;
+  z-index: 999;
+  width: fit-content;
+}
+.container .toggel_div2 {
+  position: absolute;
+  z-index: 9999;
+  top: -50px;
+  animation: right 30s linear;
+}
+
+.container .toggel_div2 button {
+  width: 170px !important;
+  font-size: 24px !important;
+}
+.container .toggel_div2 button i {
+  margin-right: 10px;
+  font-size: 24px !important;
+}
+.container .toggel_div1 ul {
+  width: 100%;
+  text-align: start;
+}
+.container .toggel_div1 ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.container .toggel_div1 ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container .toggel_div1 ul li a:hover {
+  color: #e07e1b;
+}
+/* footer */
+footer div .container .row h6,
+footer div .container .row p {
+  color: #f1f1f2;
+}
+footer div .container .row .logo img {
+  width: 250px;
+  height: 125px;
+}
+footer div .container .row .form input[type="checkbox"] {
+  transform: scale(1.5);
+}
+footer div .container .row .form input[type="submit"] {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+footer div .container .row .form label {
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+}
+
+footer div .container .row .form label a {
+  text-decoration: none;
+  color: #ff9900;
+}
+/* container.2 */
+footer .container2 .row .col-4 ul,
+footer .container2 .col ul {
+  width: 100%;
+  list-style: none;
+}
+footer .container2 .row .col-4 ul li a,
+footer .container2 .row .col-4 h6 a,
+footer .container2 .col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+footer .container2 .row .col-4 ul li a:hover,
+footer .container2 .row .col-4 h6 a:hover {
+  color: #ff9900;
+}
+footer .container2 .row .col-4 ul li a i {
+  font-size: 20px;
+}
+footer .container2 .row .col-4 ul li a i:hover,
+footer .container2 .col ul li a:hover {
+  color: #ff9900;
+}
+footer .container2 .row .col-4 .two-columns,
+footer .container2 .col .two-columns {
+  flex-wrap: wrap;
+}
+footer .container2 .row .col-4 .two-columns li,
+footer .container2 .col .two-columns li {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia,
+  .sec-banner ul li {
+    color: orangered;
+    text-decoration: none;
+    display: none;
+  }
+
+  /* end */
+  .header-con .collapse hr {
+    margin: 20px 0px !important ;
+  }
+  .header-con .collapse ul {
+    list-style: none;
+  }
+  /* left part lang */
+  .header-con .collapse .flags > :last-child {
+    margin-top: 10px !important;
+  }
+  .header-con .collapse ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+
+  .header-con .collapse ul li .en {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-con .collapse ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 100px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    height: 40px !important;
+    width: 280px !important;
+    margin-bottom: 20px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* end header */
+  /* surocel & ul lists */
+  .container .col-2 .Category,
+  .container .col-2 .left-ul,
+  .container .l_r_img img {
+    display: none;
+  }
+
+  /* slider1 */
+  #carouselExample img {
+    height: 300px;
+  }
+
+  #carouselExample2 .card img {
+    height: 200px;
+  }
+  /* card */
+
+  .card-container .row .col-2 img {
+    width: 50px;
+    height: 50px !important;
+    margin-left: 50px !important;
+  }
+  .card-container .row .col-2 img:hover,
+
+  /* sliders */
+
+#carouselExample img {
+    height: 452px;
+  }
+
+  #carouselExample2 .card img {
+    height: 200px;
+  }
+  .container .container-header {
+    margin-bottom: 10px !important;
+  }
+  .container .container-header .row div {
+    color: white;
+    font-size: 10px !important;
+  }
+  .container .container-header .row a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px !important;
+  }
+  .container .carousel .carousel-item .row {
+    flex-wrap: nowrap;
+  }
+  .container .container-header2 .col-12 {
+    font-weight: bold;
+  }
+
+  .container .carousel {
+    position: relative;
+  }
+
+  .container .carousel .card {
+    width: auto;
+    height: 390px !important;
+  }
+  .container_wshape .carousel .card {
+    height: 310px !important;
+  }
+  .container .carousel .card .card-img-top {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* toggel menu */
+  .container .toggel_div2 {
+    top: -50px;
+    right: -140px;
+  }
+  .container .toggel_div2:hover {
+    right: -12px;
+  }
+  footer .container1 {
+    display: none;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+/* small screen */
+@media (min-width: 768px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 30px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 10px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 5px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    height: 50px !important;
+    width: 600px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags,
+  .header-con .collapse hr {
+    display: none;
+  }
+  /* surocel & ul lists */
+  .container .col-2 .Category,
+  .container .col-2 .left-ul,
+  .container .l_r_img img {
+    display: none;
+  }
+
+  /* cards */
+  .card-container .row .col-2 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+  }
+
+  /* sliders */
+  .container .carousel .carousel-item .row {
+    flex-wrap: nowrap;
+  }
+
+  .container .carousel {
+    position: relative;
+  }
+  .container_wshape .carousel .card {
+    height: 360px !important;
+  }
+  #carouselExample img {
+    height: 452px;
+  }
+
+  #carouselExample2 .card img {
+    height: 200px;
+  }
+
+  .container .carousel .card {
+    width: auto;
+    height: 390px;
+  }
+
+  .container .carousel .card .card-img-top {
+    text-align: center;
+    width: 100%;
+  }
+  /* toggel menu */
+  .container .toggel_div2 {
+    top: -50px;
+    right: -170px;
+  }
+  .container .toggel_div2:hover {
+    right: -50px;
+  }
+  footer .container1 {
+    display: none;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .header-con .collapse .header_form {
+    margin-bottom: 50px !important;
+    height: 40px !important;
+    width: 650px !important;
+  }
+  .container .toggel_div2 {
+    top: -50px;
+    right: -180px !important;
+  }
+  .container .toggel_div2:hover {
+    right: -50px !important;
+  }
+
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 40px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 20px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+
+    height: 40px !important;
+    width: 300px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags {
+    display: none;
+  }
+  /* form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    height: 40px !important;
+    width: 350px !important;
+  }
+  /* card */
+
+  .card-container .row .col-2 img {
+    width: 150px;
+    height: 156px;
+    margin-left: 50px;
+  }
+  /* carousrl */
+  .container_wshape .carousel .card {
+    height: 290px !important;
+  }
+  #carouselExample img {
+    height: 452px;
+  }
+
+  #carouselExample2 .card img {
+    height: 200px;
+  }
+  /* toggel menue */
+  .container .toggel_div1 {
+    display: none;
+  }
+  /* surocel & ul lists */
+  .container .col-2 .Category,
+  .container .col-2 .left-ul,
+  .container .l_r_img img {
+    display: block;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  .sec-banner i {
+    margin-right: 20px !important;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 40px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 20px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* surocel & ul lists */
+  .container .col-2 .Category,
+  .container .col-2 .left-ul,
+  .container .l_r_img img {
+    display: block;
+  }
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    height: 40px !important;
+    width: 540px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags {
+    display: none;
+  }
+  /* slider */
+  .container_wshape .carousel .card {
+    height: 320px !important;
+  }
+  /* card */
+
+  .card-container .row .col-2 img {
+    width: 167px;
+    height: 156px;
+    margin-left: 50px;
+  }
+  /* toggel menue */
+  .container .toggel_div1 {
+    display: none;
+  }
+  footer .container1 {
+    display: block;
+    margin-top: 20px;
+  }
+  footer .div-container2 {
+    margin-top: 0px;
+  }
+}

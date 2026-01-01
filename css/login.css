@@ -1,0 +1,108 @@
+* {
+  direction: rtl;
+}
+
+.container .row .logo1 {
+  width: 70px;
+  height: 70px;
+  margin: 50px 0 30px 0;
+}
+.container .row .logo2{
+                    width: 100px;
+                    height: 50px;
+}
+
+.container .row input[type="submit"] {
+  border-radius: 5px;
+  background: #f7962c;
+  color: white;
+  border: none;
+}
+.container .row input[type="submit"]:hover {
+  background: #f9a03d;
+}
+.container .row .b-t p {
+  width: 200px;
+  margin-top: 10px;
+}
+.container .row a {
+  text-decoration: none;
+  color: #f7962c;
+}
+.container .row button:hover {
+  background: #2a82f3;
+}
+
+/* mobile screen */
+@media (max-width: 767px) {
+  .container .row input {
+    height: 50px;
+    width: 80%;
+  }
+  .container .row button {
+    margin-top: 20px;
+    background: #006eff;
+    color: white;
+    height: 60px;
+    font-size: 18px;
+    width: 100%;
+  }
+}
+/* small screen */
+@media (min-width: 768px) {
+  .container .row input {
+    height: 50px;
+    width: 30%;
+  }
+  .container .row button {
+    margin-top: 250px;
+    background: #006eff;
+    color: white;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .container .row input {
+    height: 50px;
+    width: 70%;
+  }
+  .container .row button {
+    margin-top: 300px;
+    background: #006eff;
+    color: white;
+    height: 60px;
+    width: 60%;
+    font-size: 20px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container .row input {
+    height: 50px;
+    width: 45%;
+  }
+  .container .row button {
+    margin-top: 50px;
+    background: #006eff;
+    color: white;
+    height: 60px;
+    width: 45%;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .container .row input {
+    height: 50px;
+    width: 30%;
+  }
+  .container .row button {
+    margin-top: 200px;
+    background: #006eff;
+    color: white;
+    height: 60px;
+    width: 30%;
+    font-size: 20px;
+  }
+}

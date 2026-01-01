@@ -1,0 +1,57 @@
+* {
+  color: white;
+  direction: rtl;
+  font-size: 16px;
+}
+div .container .row .logo img {
+  width: 250px;
+  height: 125px;
+  color: white;
+}
+div .container .row .form input[type="checkbox"] {
+  transform: scale(1.5);
+}
+div .container .row .form input[type="submit"] {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+div .container .row .form label {
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+}
+
+div .container .row .form label a {
+  text-decoration: none;
+  color: #ff9900;
+}
+/* container.2 */
+.container2 .row .col-3 ul {
+  width: 100%;
+  list-style: none;
+}
+.container2 .row .col-3 ul li a,
+.container2 .row .col-3 h6 a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.container2 .row .col-3 ul li a:hover,
+.container2 .row .col-3 h6 a:hover {
+  color: #ff9900;
+}
+.container2 .row .col-3 ul li a i {
+  font-size: 20px;
+}
+.container2 .row .col-3 ul li a i:hover {
+  color: #ff9900;
+}
+.container2 .row .col-3 .two-columns {
+  flex-wrap: wrap;
+}
+.container2 .row .col-3 .two-columns li {
+  width: 50%;
+  margin-bottom: 20px;
+}

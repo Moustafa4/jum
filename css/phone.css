@@ -1,0 +1,806 @@
+/* start global */
+* {
+  direction: rtl;
+  font-size: 16px !important;
+}
+/* global */
+body {
+  background: #f1f1f2 !important;
+  height: 100vh !important;
+}
+.header-con .navbar-nav .login_ul li,
+.header-con .navbar-nav .help_ul li:not(:last-child) {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.header-con .navbar-nav .login_ul li a button,
+.header-con .navbar-nav .help_ul li a button {
+  background: #fa9301;
+  border: none;
+  width: 100%;
+}
+.header-con .navbar-nav .login_ul li a button:hover,
+.header-con .navbar-nav .help_ul li a button:hover {
+  background: #e07e1b;
+}
+.header-con .navbar-nav .login_ul li i {
+  margin-left: 15px;
+}
+.container .col-12 .Category,
+.container .col-2 .left-ul {
+  list-style: none;
+  text-align: right;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-right: 10px !important;
+}
+.container .col-12 .Category {
+  height: 450px;
+}
+.container .col-12 .Category li:not(:first-child) {
+  padding-top: 14px !important;
+}
+.container .col-12 .Category li a,
+.container .col-2 .left-ul li a {
+  text-decoration: none;
+  color: black;
+}
+.container .col-12 .Category li a:hover {
+  color: #ffa621;
+}
+#carouselExample img {
+  height: 452px;
+}
+
+.container .col-2 .left-ul {
+  height: 200px;
+  width: 280px !important;
+}
+.container .col-2 .left-ul li {
+  padding-top: 20px !important ;
+}
+.container .col-2 .left-ul li i {
+  color: #ff9900;
+  font-size: 25px !important;
+}
+.container .col-2 .left-ul li a {
+  margin: 5px !important;
+}
+.a_jomia .left-ul li a:hover {
+  color: #fa9301 !important;
+}
+.container .l_r_img img {
+  width: 280px !important;
+}
+/* card */
+
+.card-container .row .col-2 img {
+  width: 95%;
+}
+.card-container .row .col-2 img:hover {
+  transform: scale(1.1);
+  box-shadow: -7px 8px 14px 2px rgb(174, 174, 174);
+}
+/* media */
+/* First panner */
+.row-top {
+  padding: 1px auto;
+}
+.container .col-12 .imag {
+  width: 99.5%;
+  border-radius: 5px;
+}
+.h2 {
+  font-size: 25px;
+  color: #333;
+  font-weight: bold;
+}
+.col-12 img:hover {
+  opacity: 0.8;
+  transform: scale(1.01);
+}
+/* End panner */
+/* Start cards */
+
+.h4 {
+  text-align: right;
+  font: bold;
+}
+/* End cards */
+/* start cards-airpods */
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background: #fff;
+  width: 200px;
+  border-radius: 5px;
+  margin: 8px;
+  box-shadow: 0px 2px 10px rgba(47, 47, 47, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.discount {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fef3e9;
+  color: #f68f22;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.title {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: gray;
+}
+
+.old-price {
+  font-size: 14px;
+  color: gray;
+  text-decoration: line-through;
+}
+.word {
+  font-size: 100px;
+  color: #333;
+  font-weight: bold;
+  padding: 20px;
+  width: auto;
+}
+
+/* end cards-airpods */
+/* Start Types  */
+.ph {
+  padding: 0;
+}
+
+.h1 {
+  font-size: 100px;
+  color: #333;
+  font-weight: bold;
+  padding: 20px;
+  width: auto;
+}
+/* End Types  */
+/* start brand*/
+
+.products-container {
+  padding: 2px;
+}
+.brand-container #brandCarousel .brand-box img {
+  height: 83%;
+}
+
+/* END brand */
+/* Start Mobile &acc */
+.mobile-accories .row .col-3 ul {
+  list-style: none;
+}
+.mobile-accories .row .col-3 ul li:not(:last-child) {
+  padding: 10px;
+}
+.mobile-accories .row .col-3 ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* .mobile-accories .row .col-3 a{
+  width: 300px !important;
+} */
+.mobile-accories .row .col-3 ul li:hover,
+.mobile-accories .row .col-3 a:hover {
+  background: #f1f1f2;
+}
+/* Start Mobile &acc */
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.search-container input {
+  padding-left: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 95px;
+}
+.search-container input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(116, 116, 116, 0.25);
+}
+.mobile-accories .row .col-3 .cheet-box div {
+  margin-bottom: 15px;
+}
+.mobile-accories .row .col-3 .cheet-box {
+  border-bottom: 1px solid rgb(212, 212, 212);
+  overflow-y: scroll;
+  height: 250px;
+}
+.mobile-accories .row .col-3 .cheet-box input[type="checkbox"],
+.container-price input[type="radio"] {
+  margin-left: 15px;
+  transform: scale(1.5);
+}
+.container-price input[type="radio"] {
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.container-price .btn {
+  color: #f68b1e;
+}
+.form-range {
+  color: #f68b1e;
+}
+/* < !-- start second col --> */
+.container .supported-products {
+  margin-top: 20px;
+  padding: 2px;
+  float: left;
+  color: gray;
+}
+.container .card-body .card-text {
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+/* < !-- End second col --> */
+/* phone container */
+.col-8 .container .row .card {
+  width: auto !important;
+}
+.col-8 .container .row .card .card-body p {
+  margin: 0 !important;
+}
+.col-8 .container .row .card .card-body a {
+  background: #e07e1b;
+  border: none;
+  display: none;
+}
+.col-8 .container .row .card:hover {
+  transform: scale(1.05);
+}
+.col-8 .container .row .card:hover .card-body a {
+  display: block;
+}
+
+/* col-8 */
+.col-8_2 {
+  width: 73.666667% !important;
+}
+.col-8_2 .card {
+  margin-top: 20px;
+}
+.col-3 {
+  height: 50%;
+}
+/* last padge */
+.container .col-3 ul {
+  list-style: none;
+  padding: 0;
+}
+.container .col-3 ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold !important;
+}
+.container .col-3 {
+  padding: 5px;
+}
+.container-price label i {
+  color: #f68f22;
+  margin: 0 2px;
+}
+.container-price label .gray {
+  color: gray;
+}
+.container-price label :last-child() {
+  margin-left: 50px !important;
+}
+.container-price h1 {
+  margin-right: 10px;
+}
+
+/* end padge */
+/* footer */
+footer div .container .row h6,
+footer div .container .row p {
+  color: #f1f1f2;
+}
+footer div .container .row .logo img {
+  width: 250px;
+  height: 125px;
+}
+footer div .container .row .form input[type="checkbox"] {
+  transform: scale(1.5);
+}
+footer div .container .row .form input[type="submit"] {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+footer div .container .row .form label {
+  font-size: 12px;
+  color: rgb(141, 141, 141);
+}
+
+footer div .container .row .form label a {
+  text-decoration: none;
+  color: #ff9900;
+}
+/* container.2 */
+footer .container2 .row .col-4 ul,
+footer .container2 .col ul {
+  width: 100%;
+  list-style: none;
+}
+footer .container2 .row .col-4 ul li a,
+footer .container2 .row .col-4 h6 a,
+footer .container2 .col ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+footer .container2 .row .col-4 ul li a:hover,
+footer .container2 .row .col-4 h6 a:hover {
+  color: #ff9900;
+}
+footer .container2 .row .col-4 ul li a i {
+  font-size: 20px;
+}
+footer .container2 .row .col-4 ul li a i:hover,
+footer .container2 .col ul li a:hover {
+  color: #ff9900;
+}
+footer .container2 .row .col-4 .two-columns,
+footer .container2 .col .two-columns {
+  flex-wrap: wrap;
+}
+footer .container2 .row .col-4 .two-columns li,
+footer .container2 .col .two-columns li {
+  width: 50%;
+  margin-bottom: 20px;
+}
+/* mobile screen */
+@media (max-width: 767px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia,
+  .sec-banner ul li {
+    color: orangered;
+    text-decoration: none;
+    display: none;
+  }
+
+  /* end */
+  .header-con .collapse hr {
+    margin: 20px 0px !important ;
+  }
+  .header-con .collapse ul {
+    list-style: none;
+  }
+  /* left part lang */
+  .header-con .collapse .flags > :last-child {
+    margin-top: 10px !important;
+  }
+  .header-con .collapse ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+
+  .header-con .collapse ul li .en {
+    text-decoration: none;
+    color: black;
+  }
+
+  .header-con .collapse ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 100px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    height: 40px !important;
+    width: 280px !important;
+    margin-bottom: 20px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* toggel menu */
+
+  footer .container1 {
+    display: none;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+  .col-3 {
+    display: none;
+  }
+  .col-8_2 {
+    width: 100% !important;
+  }
+  .card-container .row .col-2 img {
+    width: 140%;
+  }
+  footer .container1 {
+    display: none;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+/* small screen */
+@media (min-width: 768px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 30px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 10px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 5px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    height: 50px !important;
+    width: 600px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags,
+  .header-con .collapse hr {
+    display: none;
+  }
+
+  .col-3 {
+    display: none;
+  }
+  .col-8_2 {
+    width: 100% !important;
+  }
+  .card-container .row .col-2 img {
+    width: 140%;
+  }
+  .card-container .row .col-2 img {
+    width: 100% !important;
+  }
+  footer .container1 {
+    display: none;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 769px) and(max-width:991px) {
+  .header-con .collapse .header_form {
+    margin-bottom: 50px !important;
+    height: 40px !important;
+    width: 650px !important;
+  }
+
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+  .col-3 {
+    display: none;
+  }
+  .col-8_2 {
+    width: 100% !important;
+  }
+  .card-container .row .col-2 img {
+    width: 100% !important;
+  }
+  footer .div-container2 {
+    margin-top: 50px;
+  }
+}
+/* Medium Screens */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 40px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 20px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+
+    height: 40px !important;
+    width: 300px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags {
+    display: none;
+  }
+  /* toggel menue */
+
+  .col-3 {
+    display: block;
+  }
+  .col-8_2 {
+    width: 73.666667% !important;
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+  /* start sec baner  */
+  /* left link jumia  */
+  .sec-banner i,
+  .sec-banner .a_jomia {
+    color: orangered;
+    text-decoration: none;
+  }
+  .sec-banner i {
+    margin-right: 20px !important;
+  }
+  /* end */
+  /* midell li */
+  .sec-banner .col-3 ul {
+    display: flex;
+    list-style: none;
+  }
+  .sec-banner .col-3 ul li {
+    margin-right: 5px;
+  }
+  .sec-banner .col-3 ul li .jumia_icon {
+    width: 50px;
+    height: 40px;
+  }
+  .sec-banner .col-3 ul li .jumiapay_icon {
+    width: 90px;
+    margin-right: 10px !important;
+    height: 40px;
+    opacity: 0.4;
+  }
+
+  .sec-banner .col-3 ul li .jumiapay_icon:hover {
+    opacity: 1;
+  }
+  /* end */
+  /* left part lang */
+  .sec-banner .col-3 ul li .uk_icon,
+  .egy_icon {
+    width: 20px;
+  }
+  .sec-banner .col-3 ul li .egy_icon {
+    margin-right: 20px !important;
+  }
+  .sec-banner .col-3 ul li .en {
+    padding-left: 20px !important;
+    text-decoration: none;
+    color: black;
+  }
+  .sec-banner .col-3 ul .en_flag {
+    border-left: 1px solid rgb(107, 107, 107);
+  }
+  .sec-banner .col-3 ul li .ar {
+    padding-right: 5px !important;
+    opacity: 0.5;
+  }
+  /* end */
+  /* end sec pann */
+
+  /* start header */
+  /*  right part logo*/
+  .head_jumia_logo {
+    width: 120px;
+  }
+
+  /* middel part form */
+  .header-con .collapse .header_form {
+    margin-left: 20px !important;
+    margin-right: 50px !important;
+    height: 40px !important;
+    width: 540px !important;
+  }
+  .header-con .collapse .header_form button {
+    width: 80px !important;
+    color: white !important;
+    background: orange;
+  }
+  .header-con .collapse .header_form button:hover {
+    background: rgb(103, 37, 13);
+  }
+  /* lang */
+  .header-con .collapse .flags {
+    display: none;
+  }
+
+  footer .container1 {
+    display: block;
+    margin-top: 20px;
+  }
+  footer .div-container2 {
+    margin-top: 0px;
+  }
+  .col-3 {
+    display: block;
+  }
+  .col-8_2 {
+    width: 73.666667% !important;
+  }
+  footer .container1 {
+    display: block;
+    margin-top: 20px;
+  }
+  footer .div-container2 {
+    margin-top: 0px;
+  }
+}
